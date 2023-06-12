@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="javascript.js">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="txt">
+            <h1>CONTACT US</h1>
+        </div>
+        <div class="cnt">
+            <button id="contact">Contact Form</button>
+        </div>
+        <div class="popup">
+            <div class="close-btn">&times;</div>
+            <div class="form">
+                <h2>Contact Page</h2>
+                <div class="form-element">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter fullname">
+                </div>
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-element">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" placeholder="Enter your message">
+                </div>
+                <div class="form-element">
+                    <button onclick="show()">Submit</button>
+
+                    <script>
+                        function show(){
+                        alert("You're message has been received. We will get back to you soon.")
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
